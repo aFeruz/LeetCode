@@ -1,3 +1,9 @@
+/* *****************************************************************************
+ *  Name:              Feruz Abdurakhmonov
+ *  Coursera User ID:  123456
+ *  Last modified:     September 19, 2024
+ **************************************************************************** */
+
 class Solution {
     public String shortestPalindrome(String s) {
         final String t = new StringBuilder(s).reverse().toString();
@@ -9,12 +15,14 @@ class Solution {
         return t + s;
     }
 }
+//Do not copy this class ↓↓↓↓↓↓↓↓
 public class Shortest_Palindrome_214 {
     public static void main(String[] args) {
         Solution solution = new Solution();
         String case1 = "aacecaaa";
         String case2 = "aacecaaa";
         System.out.println(solution.shortestPalindrome(case1));
-        System.out.println(solution.shortestPalindrome(case2));;
+        System.out.println(solution.shortestPalindrome(case2));
     }
 }
+//Do not copy this class ↑↑↑↑↑↑↑↑
