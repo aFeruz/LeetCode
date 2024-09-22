@@ -15,6 +15,7 @@ class Solution {
         return t + s;
     }
 }
+//https://leetcode.com/problems/shortest-palindrome/description/
 //Do not copy this class ↓↓↓↓↓↓↓↓
 public class Shortest_Palindrome_214 {
     public static void main(String[] args) {
